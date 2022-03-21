@@ -8,54 +8,72 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="title">Sign Up</div>
-      <form class="form-inline" action="">
-        <label for="">Name</label><br />
-        <input type="text" placeholder="Enter your name" required /><br /><br />
-        <label for="">Email</label><br />
-        <input
-          type="text"
-          placeholder="Enter your email"
-          required
-        /><br /><br />
-        <label for="">Gender</label><br />
-        <input type="radio" name="gender" value="Male" id="Male" />Male
-        <input type="radio" name="gender" value="Female" id="Female" />Female
-        <input type="radio" name="gender" value="Other" id="Other" />Other
-        <br /><br />
-        <label for="">Religion</label><br />
-        <select name="" id="religion">
-          <option value="">Islam</option>
-          <option value="">Hindu</option>
-          <option value="">Christian</option>
-          <option value="">Other</option>
-        </select>
-        <br /><br />
-        <label for="">Date of birth</label><br />
-        <input type="text" placeholder="Enter your DOB" required /><br /><br />
-        <label for="">Phone Number</label><br />
-        <input
-          type="text"
-          placeholder="Enter your number"
-          required
-        /><br /><br />
-        <label for="">Password</label><br />
-        <input
-          type="text"
-          placeholder="Enter your password"
-          required
-        /><br /><br />
-        <label for="">Confirm Password</label><br />
-        <input type="text" placeholder="Enter your password again" required />
-        <br />
-        <div class="form-group form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" /> Remember me
-          </label>
-        </div>
-        <button>Sign up</button>
-      </form>
+    <div class="warper">
+      <div class="container">
+        <div class="title">Sign Up</div>
+        <form class="form-inline signup" action="">
+          <div class="info">
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+
+          <div class="info">
+            <label for="">Email</label>
+            <input type="text" placeholder="Enter your email" required />
+          </div>
+
+          <div class="info">
+            <label for="">Gender</label>
+            <input type="radio" name="gender" value="Male" id="gender" />Male
+            <input
+              type="radio"
+              name="gender"
+              value="Female"
+              id="gender"
+            />Female
+            <input type="radio" name="gender" value="Other" id="gender" />Other
+          </div>
+          <div class="info">
+            <label for="">Religion</label>
+            <select name="" id="religion">
+              <option value="">Islam</option>
+              <option value="">Hindu</option>
+              <option value="">Christian</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+          <div class="info">
+            <label for="">Date of birth</label>
+            <input type="text" placeholder="Enter your DOB" required />
+          </div>
+          <div class="info">
+            <label for="">Phone Number</label>
+            <input type="text" placeholder="Enter your number" required />
+          </div>
+          <div class="info">
+            <label for="">Password</label>
+            <input type="text" placeholder="Enter your password" required />
+          </div>
+          <div class="info">
+            <label for="">Confirm Password</label>
+            <input
+              type="text"
+              placeholder="Enter your password again"
+              required
+            />
+          </div>
+          <div class="info">
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" /> I accept all
+                the <a href="">Terms & Conditions</a>
+              </label>
+            </div>
+          </div>
+
+          <a class="submit" href="sign-in.html">Sign Up</a>
+        </form>
+      </div>
     </div>
   </body>
 </html>

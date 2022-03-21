@@ -4,8 +4,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+img {
+  width: 100%;
+}
 
-body {
+.warper {
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -14,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
 .container {
   border: 2px solid aquamarine;
   width: 350px;
@@ -23,19 +27,68 @@ body {
   border-radius: 5px;
 }
 
-button {
-  border: 1px solid black;
-  padding: 3px 3px;
-  margin-top: 10px;
-  background-color: #4f0d68;
+.submit {
+  transition: 0.4s;
+  border: 1px solid aquamarine;
+  padding: 6px 30px;
+  border-radius: 5px;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
   color: aliceblue;
+  margin: 10px;
+  background-color: #4f0d68;
+  display: inline-block;
+}
+.submit:hover {
+  border-color: #4f0d68;
+  background-color: aliceblue;
+  color: #4f0d68;
+  text-decoration: none;
 }
 .title {
+  color: aquamarine;
   text-align: center;
   position: relative;
   font-weight: 700;
   font-size: 20px;
+  margin-bottom: 30px;
 }
-form {
-  padding: 15px;
+
+.info {
+  margin: 9px;
+  text-align: left;
+}
+
+.signin {
+  height: 250px;
+
+  text-align: center;
+}
+.signup {
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 3px;
+}
+#gender {
+  margin: 5px;
+}
+.info input {
+  border: 1px solid aquamarine;
+  border-radius: 2px;
+  padding: 2px;
+}
+.info select {
+  border: 1px solid aquamarine;
+  border-radius: 2px;
+  padding: 2px;
+}
+.account a {
+  color: aquamarine;
+  text-decoration: none;
+}
+.info a {
+  color: aquamarine;
 }
